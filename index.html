@@ -24,7 +24,7 @@
         <header>
             <div class="image-text" id="unSoloParametro"></div>
 
-            <i class='bx bx-chevron-right toggle'></i>
+            <i class='toggle'><img src="icons/arrow.png"></i>
         </header>
 
         <div class="menu-bar">
@@ -38,63 +38,63 @@
                 <ul class="menu-links">
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-home-alt icon' ></i>
+                            <i class='icon' ><img src="icons/home.png"></i>
                             <span class="text nav-text">Inicio</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <i class='icon' ><img src="icons/users.png"></i>
                             <span class="text nav-text">Usuarios</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-bell icon'></i>
+                            <i class='icon' ><img src="icons/crane.png"></i>
                             <span class="text nav-text">Obras</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <i class='icon' ><img src="icons/company.png"></i>
                             <span class="text nav-text">Empresas</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-heart icon' ></i>
+                            <i class='icon' ><img src="icons/list.png"></i>
                             <span class="text nav-text">Documentación</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-wallet icon' ></i>
+                            <i class='icon' ><img src="icons/upload.png"></i>
                             <span class="text nav-text">Carga</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-wallet icon' ></i>
+                            <i class='icon' ><img src="icons/package.png"></i>
                             <span class="text nav-text">Entregas</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-wallet icon' ></i>
+                            <i class='icon' ><img src="icons/calendar.png"></i>
                             <span class="text nav-text">Calendario</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-wallet icon' ></i>
+                            <i class='icon' ><img src="icons/help.png"></i>
                             <span class="text nav-text">Ayuda</span>
                         </a>
                     </li>
@@ -105,8 +105,8 @@
             <div class="bottom-content">
                 <li class="">
                     <a href="#">
-                        <i class='bx bx-log-out icon' ></i>
-                        <span class="text nav-text">Logout</span>
+                        <i class='icon' ><img src="icons/logout.png"></i>
+                        <span class="text nav-text">Cerrar sesión</span>
                     </a>
                 </li>
 
@@ -115,7 +115,7 @@
                         <i class='bx bx-moon icon moon'></i>
                         <i class='bx bx-sun icon sun'></i>
                     </div>
-                    <span class="mode-text text">Light mode</span>
+                    <span class="mode-text text">Claro</span>
 
                     <div class="toggle-switch">
                         <span class="switch"></span>
@@ -161,9 +161,9 @@ modeSwitch.addEventListener("click" , () =>{
     body.classList.toggle("dark");
     
     if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
+        modeText.innerText = "Claro";
     }else{
-        modeText.innerText = "Dark mode";
+        modeText.innerText = "Oscuro";
         
     }
 });
